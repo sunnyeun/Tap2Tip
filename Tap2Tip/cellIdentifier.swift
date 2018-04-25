@@ -20,7 +20,7 @@ class CustomTipTableViewController: UITableViewController {
             "TIP PERCENTAGE": "15-20%",
             ])
         tipPercentage.append ([
-            "SERVICE TYPE": "Below-average",
+            "SERVICE TYPE": "Below-Average",
             "TIP PERCENTAGE": "10%",
             ])
         tipPercentage.append ([

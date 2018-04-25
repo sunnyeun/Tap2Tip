@@ -30,13 +30,13 @@
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="146"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$ 9.12" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uzb-GC-eY3">
-                                                <rect key="frame" x="240" y="54" width="80" height="38"/>
+                                                <rect key="frame" x="245" y="54" width="80" height="38"/>
                                                 <fontDescription key="fontDescription" name="Aldo-SemiBold" family="Aldo" pointSize="35"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TOTAL" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Boo-B3-qds">
-                                                <rect key="frame" x="55" y="54" width="46" height="24"/>
+                                                <rect key="frame" x="50" y="54" width="46" height="24"/>
                                                 <fontDescription key="fontDescription" name="Aldo-SemiBold" family="Aldo" pointSize="22"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
@@ -45,13 +45,13 @@
                                         <color key="backgroundColor" red="0.10980392160000001" green="0.67450980390000004" blue="0.43921568630000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstItem="Boo-B3-qds" firstAttribute="top" secondItem="Ej7-XZ-kYG" secondAttribute="top" constant="54" id="Apj-lf-tXq"/>
-                                            <constraint firstItem="Boo-B3-qds" firstAttribute="leading" secondItem="Ej7-XZ-kYG" secondAttribute="leading" constant="55" id="DqP-9p-2an"/>
+                                            <constraint firstItem="Boo-B3-qds" firstAttribute="leading" secondItem="Ej7-XZ-kYG" secondAttribute="leading" constant="50" id="DqP-9p-2an"/>
                                             <constraint firstAttribute="bottom" secondItem="uzb-GC-eY3" secondAttribute="bottom" constant="54" id="Gh7-15-cO4"/>
                                             <constraint firstItem="uzb-GC-eY3" firstAttribute="top" secondItem="Ej7-XZ-kYG" secondAttribute="top" constant="54" id="NEL-0h-utd"/>
-                                            <constraint firstAttribute="trailing" secondItem="uzb-GC-eY3" secondAttribute="trailing" constant="55" id="QHf-U8-ciq"/>
-                                            <constraint firstItem="uzb-GC-eY3" firstAttribute="leading" secondItem="Ej7-XZ-kYG" secondAttribute="leading" constant="240" id="c33-BO-rHD"/>
+                                            <constraint firstAttribute="trailing" secondItem="uzb-GC-eY3" secondAttribute="trailing" constant="50" id="QHf-U8-ciq"/>
+                                            <constraint firstItem="uzb-GC-eY3" firstAttribute="leading" secondItem="Ej7-XZ-kYG" secondAttribute="leading" constant="245" id="c33-BO-rHD"/>
                                             <constraint firstAttribute="bottom" secondItem="Boo-B3-qds" secondAttribute="bottom" constant="68" id="c6Y-Pz-x56"/>
-                                            <constraint firstAttribute="trailing" secondItem="Boo-B3-qds" secondAttribute="trailing" constant="274.5" id="zf5-bq-rGt"/>
+                                            <constraint firstAttribute="trailing" secondItem="Boo-B3-qds" secondAttribute="trailing" constant="279" id="zf5-bq-rGt"/>
                                         </constraints>
                                     </view>
                                 </subviews>
@@ -63,13 +63,13 @@
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="90"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$ 8.00" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yTA-UQ-r7w">
-                                                <rect key="frame" x="240" y="16" width="80" height="58"/>
+                                                <rect key="frame" x="245" y="16" width="80" height="58"/>
                                                 <fontDescription key="fontDescription" name="Aldo-SemiBold" family="Aldo" pointSize="35"/>
                                                 <color key="textColor" red="0.10980392160000001" green="0.67450980390000004" blue="0.43921568630000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="BILL AMOUNT" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VUL-gy-hOq">
-                                                <rect key="frame" x="55" y="16" width="98" height="44"/>
+                                                <rect key="frame" x="50" y="16" width="98" height="44"/>
                                                 <fontDescription key="fontDescription" name="Aldo-SemiBold" family="Aldo" pointSize="22"/>
                                                 <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
@@ -77,13 +77,13 @@
                                         </subviews>
                                         <color key="backgroundColor" red="0.95686274510000002" green="0.96078431369999995" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <constraints>
-                                            <constraint firstAttribute="trailing" secondItem="yTA-UQ-r7w" secondAttribute="trailing" constant="55" id="6Ag-uf-LyL"/>
-                                            <constraint firstAttribute="trailing" secondItem="VUL-gy-hOq" secondAttribute="trailing" constant="222" id="8Fh-jQ-49c"/>
+                                            <constraint firstAttribute="trailing" secondItem="VUL-gy-hOq" secondAttribute="trailing" constant="227" id="8Fh-jQ-49c"/>
                                             <constraint firstAttribute="bottom" secondItem="VUL-gy-hOq" secondAttribute="bottom" constant="30" id="9Qi-E5-JMu"/>
-                                            <constraint firstItem="VUL-gy-hOq" firstAttribute="leading" secondItem="HJS-ze-4rl" secondAttribute="leading" constant="55" id="VYE-sd-Xi9"/>
-                                            <constraint firstItem="yTA-UQ-r7w" firstAttribute="leading" secondItem="HJS-ze-4rl" secondAttribute="leading" constant="240" id="XLx-DL-e2P"/>
-                                            <constraint firstAttribute="bottom" secondItem="yTA-UQ-r7w" secondAttribute="bottom" constant="16" id="eiT-9L-whI"/>
-                                            <constraint firstItem="yTA-UQ-r7w" firstAttribute="top" secondItem="HJS-ze-4rl" secondAttribute="top" constant="16" id="oY5-0X-Ald"/>
+                                            <constraint firstAttribute="bottom" secondItem="yTA-UQ-r7w" secondAttribute="bottom" constant="16" id="TOD-oM-tMB"/>
+                                            <constraint firstItem="VUL-gy-hOq" firstAttribute="leading" secondItem="HJS-ze-4rl" secondAttribute="leading" constant="50" id="VYE-sd-Xi9"/>
+                                            <constraint firstAttribute="trailing" secondItem="yTA-UQ-r7w" secondAttribute="trailing" constant="50" id="YZq-yo-mQC"/>
+                                            <constraint firstItem="yTA-UQ-r7w" firstAttribute="leading" secondItem="HJS-ze-4rl" secondAttribute="leading" constant="245" id="lmT-hF-rbt"/>
+                                            <constraint firstItem="yTA-UQ-r7w" firstAttribute="top" secondItem="HJS-ze-4rl" secondAttribute="top" constant="16" id="rcG-0K-Q9U"/>
                                             <constraint firstItem="VUL-gy-hOq" firstAttribute="top" secondItem="HJS-ze-4rl" secondAttribute="top" constant="16" id="vuJ-Kw-Ytq"/>
                                         </constraints>
                                     </view>
@@ -91,22 +91,22 @@
                                 <color key="backgroundColor" red="0.97275548869999995" green="0.96805618689999995" blue="0.97745479059999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7Qn-EF-V4W">
-                                <rect key="frame" x="0.0" y="275" width="375" height="393"/>
+                                <rect key="frame" x="0.0" y="275" width="375" height="393.5"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="C6N-Fz-XNq">
-                                        <rect key="frame" x="0.0" y="0.0" width="375" height="393"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="393.5"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7L0-Jq-n2w">
-                                                <rect key="frame" x="0.0" y="0.0" width="375" height="70"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="375" height="70.5"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TIP PERCENTAGE" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CjW-ZW-J6W">
-                                                        <rect key="frame" x="53" y="24" width="120" height="24"/>
+                                                        <rect key="frame" x="53" y="24" width="120" height="24.5"/>
                                                         <fontDescription key="fontDescription" name="Aldo-SemiBold" family="Aldo" pointSize="22"/>
                                                         <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="15%" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RbR-oh-OHl">
-                                                        <rect key="frame" x="240" y="16" width="80" height="38"/>
+                                                        <rect key="frame" x="240" y="16" width="80" height="38.5"/>
                                                         <fontDescription key="fontDescription" name="Aldo-SemiBold" family="Aldo" pointSize="35"/>
                                                         <color key="textColor" red="0.10980392160000001" green="0.67450980390000004" blue="0.43921568630000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <nil key="highlightedColor"/>
@@ -124,149 +124,174 @@
                                                     <constraint firstAttribute="bottom" secondItem="CjW-ZW-J6W" secondAttribute="bottom" constant="22" id="rvH-JP-ebr"/>
                                                 </constraints>
                                             </view>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VfA-OG-rjP">
-                                                <rect key="frame" x="26" y="80" width="324" height="93.5"/>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="zCD-j6-s6j">
+                                                <rect key="frame" x="26" y="80" width="324" height="94.5"/>
                                                 <subviews>
-                                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="v5l-LZ-nqX">
-                                                        <rect key="frame" x="0.0" y="2" width="73" height="91"/>
-                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VfA-OG-rjP">
+                                                        <rect key="frame" x="0.0" y="0.0" width="324" height="94.5"/>
                                                         <subviews>
-                                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PL4-2q-2rY" customClass="RoundedCorner" customModule="Tap2Tip" customModuleProvider="target">
-                                                                <rect key="frame" x="0.0" y="4" width="73" height="60"/>
-                                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                                <fontDescription key="fontDescription" name="Aldo-SemiBold" family="Aldo" pointSize="25"/>
-                                                                <state key="normal" title="10%">
-                                                                    <color key="titleColor" red="0.10980392160000001" green="0.67450980390000004" blue="0.43921568630000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                                </state>
-                                                                <userDefinedRuntimeAttributes>
-                                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
-                                                                        <real key="value" value="10"/>
-                                                                    </userDefinedRuntimeAttribute>
-                                                                    <userDefinedRuntimeAttribute type="number" keyPath="borderThickness">
-                                                                        <real key="value" value="2"/>
-                                                                    </userDefinedRuntimeAttribute>
-                                                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
-                                                                        <color key="value" red="0.10980392160000001" green="0.67450980390000004" blue="0.43921568630000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                                    </userDefinedRuntimeAttribute>
-                                                                </userDefinedRuntimeAttributes>
-                                                            </button>
-                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="$ 0.80" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fFT-v6-i2e">
-                                                                <rect key="frame" x="16" y="72" width="40" height="20"/>
-                                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                                <fontDescription key="fontDescription" name="Aldo-SemiBold" family="Aldo" pointSize="18"/>
-                                                                <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                                <nil key="highlightedColor"/>
-                                                            </label>
+                                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="v5l-LZ-nqX">
+                                                                <rect key="frame" x="0.0" y="2" width="73" height="91"/>
+                                                                <subviews>
+                                                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PL4-2q-2rY" customClass="RoundedCorner" customModule="Tap2Tip" customModuleProvider="target">
+                                                                        <rect key="frame" x="0.0" y="4" width="73" height="60"/>
+                                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                        <fontDescription key="fontDescription" name="Aldo-SemiBold" family="Aldo" pointSize="25"/>
+                                                                        <state key="normal" title="10%">
+                                                                            <color key="titleColor" red="0.10980392160000001" green="0.67450980390000004" blue="0.43921568630000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                        </state>
+                                                                        <userDefinedRuntimeAttributes>
+                                                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                                                <real key="value" value="10"/>
+                                                                            </userDefinedRuntimeAttribute>
+                                                                            <userDefinedRuntimeAttribute type="number" keyPath="borderThickness">
+                                                                                <real key="value" value="2"/>
+                                                                            </userDefinedRuntimeAttribute>
+                                                                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                                                <color key="value" red="0.10980392160000001" green="0.67450980390000004" blue="0.43921568630000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                            </userDefinedRuntimeAttribute>
+                                                                        </userDefinedRuntimeAttributes>
+                                                                    </button>
+                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="$ 0.80" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fFT-v6-i2e">
+                                                                        <rect key="frame" x="16" y="72" width="40" height="19.5"/>
+                                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                                        <fontDescription key="fontDescription" name="Aldo-SemiBold" family="Aldo" pointSize="18"/>
+                                                                        <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                        <nil key="highlightedColor"/>
+                                                                    </label>
+                                                                </subviews>
+                                                            </view>
+                                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="b96-Wf-cTb">
+                                                                <rect key="frame" x="85" y="2" width="70.5" height="91.5"/>
+                                                                <subviews>
+                                                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AN4-UV-mLg" customClass="RoundedCorner" customModule="Tap2Tip" customModuleProvider="target">
+                                                                        <rect key="frame" x="0.0" y="4" width="72" height="60"/>
+                                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                                        <color key="backgroundColor" red="0.10980392160000001" green="0.67450980390000004" blue="0.43921568630000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                        <fontDescription key="fontDescription" name="Aldo-SemiBold" family="Aldo" pointSize="25"/>
+                                                                        <state key="normal" title="15%">
+                                                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                        </state>
+                                                                        <userDefinedRuntimeAttributes>
+                                                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                                                <real key="value" value="10"/>
+                                                                            </userDefinedRuntimeAttribute>
+                                                                            <userDefinedRuntimeAttribute type="number" keyPath="borderThickness">
+                                                                                <real key="value" value="2"/>
+                                                                            </userDefinedRuntimeAttribute>
+                                                                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                                                <color key="value" red="0.10980392160000001" green="0.67450980390000004" blue="0.43921568630000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                            </userDefinedRuntimeAttribute>
+                                                                        </userDefinedRuntimeAttributes>
+                                                                    </button>
+                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="$ 1.20" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hi2-0D-RdA">
+                                                                        <rect key="frame" x="16" y="72" width="38.5" height="19.5"/>
+                                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                                        <fontDescription key="fontDescription" name="Aldo-SemiBold" family="Aldo" pointSize="18"/>
+                                                                        <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                        <nil key="highlightedColor"/>
+                                                                    </label>
+                                                                </subviews>
+                                                            </view>
+                                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pAX-x8-5hs">
+                                                                <rect key="frame" x="168" y="2" width="70.5" height="91.5"/>
+                                                                <subviews>
+                                                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mjl-fV-Yrv" customClass="RoundedCorner" customModule="Tap2Tip" customModuleProvider="target">
+                                                                        <rect key="frame" x="0.0" y="4" width="72" height="60"/>
+                                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                        <fontDescription key="fontDescription" name="Aldo-SemiBold" family="Aldo" pointSize="25"/>
+                                                                        <state key="normal" title="20%">
+                                                                            <color key="titleColor" red="0.10980392160000001" green="0.67450980390000004" blue="0.43921568630000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                        </state>
+                                                                        <userDefinedRuntimeAttributes>
+                                                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                                                <real key="value" value="10"/>
+                                                                            </userDefinedRuntimeAttribute>
+                                                                            <userDefinedRuntimeAttribute type="number" keyPath="borderThickness">
+                                                                                <real key="value" value="2"/>
+                                                                            </userDefinedRuntimeAttribute>
+                                                                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                                                <color key="value" red="0.10980392160000001" green="0.67450980390000004" blue="0.43921568630000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                            </userDefinedRuntimeAttribute>
+                                                                        </userDefinedRuntimeAttributes>
+                                                                    </button>
+                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="$ 1.60" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="igJ-Sh-0QJ">
+                                                                        <rect key="frame" x="13" y="72" width="38.5" height="19.5"/>
+                                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                                        <fontDescription key="fontDescription" name="Aldo-SemiBold" family="Aldo" pointSize="18"/>
+                                                                        <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                        <nil key="highlightedColor"/>
+                                                                    </label>
+                                                                </subviews>
+                                                            </view>
+                                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vX4-jV-hZi">
+                                                                <rect key="frame" x="251" y="2" width="73" height="91.5"/>
+                                                                <subviews>
+                                                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NrP-qJ-KyY" customClass="RoundedCorner" customModule="Tap2Tip" customModuleProvider="target">
+                                                                        <rect key="frame" x="0.0" y="4" width="73" height="60"/>
+                                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                        <fontDescription key="fontDescription" name="Aldo-SemiBold" family="Aldo" pointSize="25"/>
+                                                                        <state key="normal" title="25%">
+                                                                            <color key="titleColor" red="0.10980392160000001" green="0.67450980390000004" blue="0.43921568630000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                        </state>
+                                                                        <userDefinedRuntimeAttributes>
+                                                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                                                <real key="value" value="10"/>
+                                                                            </userDefinedRuntimeAttribute>
+                                                                            <userDefinedRuntimeAttribute type="number" keyPath="borderThickness">
+                                                                                <real key="value" value="2"/>
+                                                                            </userDefinedRuntimeAttribute>
+                                                                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                                                <color key="value" red="0.10980392160000001" green="0.67450980390000004" blue="0.43921568630000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                            </userDefinedRuntimeAttribute>
+                                                                        </userDefinedRuntimeAttributes>
+                                                                    </button>
+                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="$ 2.00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B0Y-Uf-aYU">
+                                                                        <rect key="frame" x="16" y="72" width="40" height="20.5"/>
+                                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                                        <fontDescription key="fontDescription" name="Aldo-SemiBold" family="Aldo" pointSize="18"/>
+                                                                        <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                        <nil key="highlightedColor"/>
+                                                                    </label>
+                                                                </subviews>
+                                                            </view>
                                                         </subviews>
-                                                    </view>
-                                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="b96-Wf-cTb">
-                                                        <rect key="frame" x="85" y="2" width="72" height="91"/>
-                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                        <subviews>
-                                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AN4-UV-mLg" customClass="RoundedCorner" customModule="Tap2Tip" customModuleProvider="target">
-                                                                <rect key="frame" x="0.0" y="4" width="72" height="60"/>
-                                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                                <color key="backgroundColor" red="0.10980392160000001" green="0.67450980390000004" blue="0.43921568630000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                                <fontDescription key="fontDescription" name="Aldo-SemiBold" family="Aldo" pointSize="25"/>
-                                                                <state key="normal" title="15%">
-                                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                                </state>
-                                                                <userDefinedRuntimeAttributes>
-                                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
-                                                                        <real key="value" value="10"/>
-                                                                    </userDefinedRuntimeAttribute>
-                                                                    <userDefinedRuntimeAttribute type="number" keyPath="borderThickness">
-                                                                        <real key="value" value="2"/>
-                                                                    </userDefinedRuntimeAttribute>
-                                                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
-                                                                        <color key="value" red="0.10980392160000001" green="0.67450980390000004" blue="0.43921568630000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                                    </userDefinedRuntimeAttribute>
-                                                                </userDefinedRuntimeAttributes>
-                                                            </button>
-                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="$ 1.20" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hi2-0D-RdA">
-                                                                <rect key="frame" x="16" y="72" width="40" height="20"/>
-                                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                                <fontDescription key="fontDescription" name="Aldo-SemiBold" family="Aldo" pointSize="18"/>
-                                                                <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                                <nil key="highlightedColor"/>
-                                                            </label>
-                                                        </subviews>
-                                                    </view>
-                                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pAX-x8-5hs">
-                                                        <rect key="frame" x="168" y="2" width="72" height="91"/>
-                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                        <subviews>
-                                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mjl-fV-Yrv" customClass="RoundedCorner" customModule="Tap2Tip" customModuleProvider="target">
-                                                                <rect key="frame" x="0.0" y="4" width="72" height="60"/>
-                                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                                <fontDescription key="fontDescription" name="Aldo-SemiBold" family="Aldo" pointSize="25"/>
-                                                                <state key="normal" title="20%">
-                                                                    <color key="titleColor" red="0.10980392160000001" green="0.67450980390000004" blue="0.43921568630000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                                </state>
-                                                                <userDefinedRuntimeAttributes>
-                                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
-                                                                        <real key="value" value="10"/>
-                                                                    </userDefinedRuntimeAttribute>
-                                                                    <userDefinedRuntimeAttribute type="number" keyPath="borderThickness">
-                                                                        <real key="value" value="2"/>
-                                                                    </userDefinedRuntimeAttribute>
-                                                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
-                                                                        <color key="value" red="0.10980392160000001" green="0.67450980390000004" blue="0.43921568630000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                                    </userDefinedRuntimeAttribute>
-                                                                </userDefinedRuntimeAttributes>
-                                                            </button>
-                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="$ 1.60" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="igJ-Sh-0QJ">
-                                                                <rect key="frame" x="13" y="72" width="40" height="20"/>
-                                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                                <fontDescription key="fontDescription" name="Aldo-SemiBold" family="Aldo" pointSize="18"/>
-                                                                <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                                <nil key="highlightedColor"/>
-                                                            </label>
-                                                        </subviews>
-                                                    </view>
-                                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vX4-jV-hZi">
-                                                        <rect key="frame" x="251" y="2" width="73" height="91"/>
-                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                        <subviews>
-                                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NrP-qJ-KyY" customClass="RoundedCorner" customModule="Tap2Tip" customModuleProvider="target">
-                                                                <rect key="frame" x="0.0" y="4" width="73" height="60"/>
-                                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                                <fontDescription key="fontDescription" name="Aldo-SemiBold" family="Aldo" pointSize="25"/>
-                                                                <state key="normal" title="25%">
-                                                                    <color key="titleColor" red="0.10980392160000001" green="0.67450980390000004" blue="0.43921568630000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                                </state>
-                                                                <userDefinedRuntimeAttributes>
-                                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
-                                                                        <real key="value" value="10"/>
-                                                                    </userDefinedRuntimeAttribute>
-                                                                    <userDefinedRuntimeAttribute type="number" keyPath="borderThickness">
-                                                                        <real key="value" value="2"/>
-                                                                    </userDefinedRuntimeAttribute>
-                                                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
-                                                                        <color key="value" red="0.10980392160000001" green="0.67450980390000004" blue="0.43921568630000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                                    </userDefinedRuntimeAttribute>
-                                                                </userDefinedRuntimeAttributes>
-                                                            </button>
-                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="$ 2.00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B0Y-Uf-aYU">
-                                                                <rect key="frame" x="16" y="72" width="40" height="20"/>
-                                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                                <fontDescription key="fontDescription" name="Aldo-SemiBold" family="Aldo" pointSize="18"/>
-                                                                <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                                <nil key="highlightedColor"/>
-                                                            </label>
-                                                        </subviews>
+                                                        <color key="backgroundColor" red="0.43647053429999999" green="0.66457790139999995" blue="0.1280779551" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                        <constraints>
+                                                            <constraint firstItem="v5l-LZ-nqX" firstAttribute="top" secondItem="VfA-OG-rjP" secondAttribute="top" constant="2" id="AhZ-06-u6j"/>
+                                                            <constraint firstItem="v5l-LZ-nqX" firstAttribute="leading" secondItem="VfA-OG-rjP" secondAttribute="leading" id="Azm-C5-rUp"/>
+                                                            <constraint firstAttribute="trailing" secondItem="v5l-LZ-nqX" secondAttribute="trailing" constant="251" id="IMD-cj-cdB"/>
+                                                            <constraint firstAttribute="trailing" secondItem="vX4-jV-hZi" secondAttribute="trailing" id="K2h-u2-OK1"/>
+                                                            <constraint firstItem="vX4-jV-hZi" firstAttribute="top" secondItem="VfA-OG-rjP" secondAttribute="top" constant="2" id="LrG-te-lfa"/>
+                                                            <constraint firstAttribute="trailing" secondItem="b96-Wf-cTb" secondAttribute="trailing" constant="168.5" id="Rfr-Zp-n1g"/>
+                                                            <constraint firstItem="vX4-jV-hZi" firstAttribute="leading" secondItem="VfA-OG-rjP" secondAttribute="leading" constant="251" id="T5n-eM-f0G"/>
+                                                            <constraint firstItem="b96-Wf-cTb" firstAttribute="leading" secondItem="VfA-OG-rjP" secondAttribute="leading" constant="85" id="Tou-Pm-gy4"/>
+                                                            <constraint firstAttribute="bottom" secondItem="pAX-x8-5hs" secondAttribute="bottom" constant="1" id="U63-3r-P0m"/>
+                                                            <constraint firstAttribute="bottom" secondItem="v5l-LZ-nqX" secondAttribute="bottom" constant="1.5" id="W0V-5m-Ehg"/>
+                                                            <constraint firstItem="pAX-x8-5hs" firstAttribute="top" secondItem="VfA-OG-rjP" secondAttribute="top" constant="2" id="a0B-Xb-REs"/>
+                                                            <constraint firstAttribute="bottom" secondItem="vX4-jV-hZi" secondAttribute="bottom" constant="1" id="eqk-SL-zPp"/>
+                                                            <constraint firstAttribute="bottom" secondItem="b96-Wf-cTb" secondAttribute="bottom" constant="1" id="fHA-li-LwV"/>
+                                                            <constraint firstItem="pAX-x8-5hs" firstAttribute="leading" secondItem="VfA-OG-rjP" secondAttribute="leading" constant="168" id="hQk-4J-lVL"/>
+                                                            <constraint firstAttribute="trailing" secondItem="pAX-x8-5hs" secondAttribute="trailing" constant="85.5" id="pxx-Ix-oCI"/>
+                                                            <constraint firstItem="b96-Wf-cTb" firstAttribute="top" secondItem="VfA-OG-rjP" secondAttribute="top" constant="2" id="vFD-pM-r2T"/>
+                                                        </constraints>
                                                     </view>
                                                 </subviews>
-                                                <color key="backgroundColor" red="0.95686274510000002" green="0.96078431369999995" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                            </view>
+                                                <constraints>
+                                                    <constraint firstAttribute="bottom" secondItem="VfA-OG-rjP" secondAttribute="bottom" id="7wU-zr-JH0"/>
+                                                    <constraint firstAttribute="trailing" secondItem="VfA-OG-rjP" secondAttribute="trailing" id="acl-63-Xf8"/>
+                                                    <constraint firstItem="VfA-OG-rjP" firstAttribute="leading" secondItem="zCD-j6-s6j" secondAttribute="leading" id="e0D-Js-glN"/>
+                                                    <constraint firstItem="VfA-OG-rjP" firstAttribute="top" secondItem="zCD-j6-s6j" secondAttribute="top" id="l37-lG-QZq"/>
+                                                </constraints>
+                                            </stackView>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rfy-1C-NNR">
-                                                <rect key="frame" x="0.0" y="193" width="375" height="95"/>
+                                                <rect key="frame" x="0.0" y="193" width="375" height="95.5"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LqI-Bz-EqN" customClass="RoundedCorner" customModule="Tap2Tip" customModuleProvider="target">
-                                                        <rect key="frame" x="26" y="8" width="323" height="60.5"/>
+                                                        <rect key="frame" x="26" y="8" width="323" height="61.5"/>
                                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <fontDescription key="fontDescription" name="Aldo-SemiBold" family="Aldo" pointSize="25"/>
                                                         <state key="normal" title="CUSTOM">
@@ -304,20 +329,19 @@
                                                 </constraints>
                                             </view>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Xs-IA-p3N">
-                                                <rect key="frame" x="112" y="319" width="150" height="32"/>
+                                                <rect key="frame" x="112" y="319" width="150" height="32.5"/>
                                                 <fontDescription key="fontDescription" name="Aldo-SemiBold" family="Aldo" pointSize="18"/>
                                                 <state key="normal" title="SUGGESTED TIP GUIDE">
                                                     <color key="titleColor" red="0.10980392160000001" green="0.67450980390000004" blue="0.43921568630000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
+                                                <connections>
+                                                    <segue destination="V70-uk-383" kind="show" id="5Dk-TM-glI"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" red="0.95686274510000002" green="0.96078431369999995" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <constraints>
                                             <constraint firstItem="7L0-Jq-n2w" firstAttribute="leading" secondItem="C6N-Fz-XNq" secondAttribute="leading" id="1VZ-yz-FKa"/>
-                                            <constraint firstItem="VfA-OG-rjP" firstAttribute="leading" secondItem="C6N-Fz-XNq" secondAttribute="leading" constant="26" id="2P4-oN-qat"/>
-                                            <constraint firstItem="VfA-OG-rjP" firstAttribute="top" secondItem="C6N-Fz-XNq" secondAttribute="top" constant="80" id="5YM-zL-2QB"/>
-                                            <constraint firstItem="VfA-OG-rjP" firstAttribute="top" secondItem="7L0-Jq-n2w" secondAttribute="bottom" constant="10" id="Bgi-C8-tqu"/>
-                                            <constraint firstAttribute="trailing" secondItem="VfA-OG-rjP" secondAttribute="trailing" constant="25" id="BqY-V9-nnr"/>
                                             <constraint firstItem="rfy-1C-NNR" firstAttribute="leading" secondItem="C6N-Fz-XNq" secondAttribute="leading" id="HCq-uE-A23"/>
                                             <constraint firstAttribute="bottom" secondItem="6Xs-IA-p3N" secondAttribute="bottom" constant="42" id="JVK-cP-TRF"/>
                                             <constraint firstAttribute="trailing" secondItem="7L0-Jq-n2w" secondAttribute="trailing" constant="0.5" id="Q4F-00-YYY"/>
@@ -328,15 +352,18 @@
                                             <constraint firstItem="6Xs-IA-p3N" firstAttribute="leading" secondItem="C6N-Fz-XNq" secondAttribute="leading" constant="112" id="lGw-fk-O9k"/>
                                             <constraint firstItem="6Xs-IA-p3N" firstAttribute="top" secondItem="C6N-Fz-XNq" secondAttribute="top" constant="319" id="mI8-06-C9y"/>
                                             <constraint firstAttribute="bottom" secondItem="rfy-1C-NNR" secondAttribute="bottom" constant="105" id="oaT-6U-aZW"/>
-                                            <constraint firstItem="rfy-1C-NNR" firstAttribute="top" secondItem="VfA-OG-rjP" secondAttribute="bottom" constant="19.5" id="uB6-6p-7R7"/>
                                         </constraints>
                                     </view>
                                 </subviews>
                                 <constraints>
                                     <constraint firstItem="C6N-Fz-XNq" firstAttribute="leading" secondItem="7Qn-EF-V4W" secondAttribute="leading" id="2gT-el-lXD"/>
+                                    <constraint firstItem="zCD-j6-s6j" firstAttribute="top" secondItem="7Qn-EF-V4W" secondAttribute="top" constant="80" id="3wg-du-pSb"/>
+                                    <constraint firstAttribute="bottom" secondItem="zCD-j6-s6j" secondAttribute="bottom" constant="219" id="A39-kT-F4r"/>
                                     <constraint firstAttribute="trailing" secondItem="C6N-Fz-XNq" secondAttribute="trailing" id="Qqm-zL-oZF"/>
+                                    <constraint firstAttribute="trailing" secondItem="zCD-j6-s6j" secondAttribute="trailing" constant="25" id="STl-26-qK0"/>
                                     <constraint firstItem="C6N-Fz-XNq" firstAttribute="top" secondItem="7Qn-EF-V4W" secondAttribute="top" id="mjL-X6-BeY"/>
                                     <constraint firstAttribute="bottom" secondItem="C6N-Fz-XNq" secondAttribute="bottom" id="pvx-bp-PU7"/>
+                                    <constraint firstItem="zCD-j6-s6j" firstAttribute="leading" secondItem="7Qn-EF-V4W" secondAttribute="leading" constant="26" id="spt-Yu-N6a"/>
                                 </constraints>
                             </stackView>
                         </subviews>
@@ -359,7 +386,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="136.80000000000001" y="131.78410794602701"/>
+            <point key="canvasLocation" x="135.19999999999999" y="130.88455772113943"/>
         </scene>
         <!--Custom Tip Table View Controller-->
         <scene sceneID="Xrb-we-hWL">
