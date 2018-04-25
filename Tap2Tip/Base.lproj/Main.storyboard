@@ -259,7 +259,7 @@
                                                                 </subviews>
                                                             </view>
                                                         </subviews>
-                                                        <color key="backgroundColor" red="0.43647053429999999" green="0.66457790139999995" blue="0.1280779551" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                        <color key="backgroundColor" red="0.95686274510000002" green="0.96078431369999995" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         <constraints>
                                                             <constraint firstItem="v5l-LZ-nqX" firstAttribute="top" secondItem="VfA-OG-rjP" secondAttribute="top" constant="2" id="AhZ-06-u6j"/>
                                                             <constraint firstItem="v5l-LZ-nqX" firstAttribute="leading" secondItem="VfA-OG-rjP" secondAttribute="leading" id="Azm-C5-rUp"/>
